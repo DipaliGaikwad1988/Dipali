@@ -1,0 +1,87 @@
+/* Reset default styles */
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+body {
+background: black;
+display: flex;
+flex-direction: column;
+}
+.stars, .twinkling, .clouds {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: block;
+}
+.stars {
+background: transparent url('http://www.script-tutorials.com/demos/360/images/stars.png') repeat top center;
+z-index: -1;
+opacity:0.9;
+animation: move-twink-back 1000s linear infinite;
+}
+.twinkling {
+background: transparent url('http://www.script-tutorials.com/demos/360/images/twinkling.png') repeat top center;
+z-index: -1;
+opacity:0.6;
+animation: move-twink-back 1000s linear infinite;
+}
+.clouds {
+background: transparent url('http://www.script-tutorials.com/demos/360/images/clouds3.png') repeat top center;
+z-index: -1;
+opacity:0.6;
+animation: move-clouds-back 1000s linear infinite;
+}
+@keyframes move-twink-back {
+from {background-position: 0 0;}
+to {background-position: -10000px 5000px;}
+}
+@keyframes move-clouds-back {
+from {background-position: 0 0;}
+to {background-position: 10000px 0;}
+}
+.navbar, .event-footer {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,65,24,1) 42%, rgba(43,29,15,1) 79%);
+}
+.sub-btn {
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(105,65,24,1) 42%, rgba(43,29,15,1) 79%);
+color: #fff;
+}
+.jumbotron {
+background-color: rgba(0, 0, 0, 0.5);
+color: white;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.event-card {
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.event-card img {
+max-width: 100px; /* Adjust the size as needed */
+height: auto;
+margin-bottom: 10px;
+}
+main {
+flex: 1;
+}
+.carousel-inner img {
+width: 100%;
+height: auto;
+max-height: 80vh; /* Adjust the height as needed */
+object-fit: cover;
+}
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text visibility */
+padding: 1rem;
+}
+.slider img {
+width: 100%;
+height: auto;
+max-height: 80vh; /* Adjust the height to fit the screen */
+object-fit: cover;
+}

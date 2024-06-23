@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Tech Conference 2024",
+        "description": "Join us for a day of tech talks and networking.",
+        "image": "https://via.placeholder.com/150",
+        "date": "2024-07-01",
+        "time": "10:00 AM",
+        "location": "Tech Park, Silicon Valley",
+        "link": "#"
+    },
+    {
+        "id": 2,
+        "title": "Art Expo 2024",
+        "description": "Explore the latest in contemporary art.",
+        "image": "https://via.placeholder.com/150",
+        "date": "2024-08-15",
+        "time": "12:00 PM",
+        "location": "Art Center, New York",
+        "link": "#"
+    },
+    {
+        "id": 3,
+        "title": "Music Festival 2024",
+        "description": "Experience live music from various genres.",
+        "image": "https://via.placeholder.com/150",
+        "date": "2024-09-10",
+        "time": "06:00 PM",
+        "location": "Central Park, New York",
+        "link": "#"
+    }
+]
